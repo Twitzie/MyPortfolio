@@ -468,15 +468,15 @@ function App() {
       </section>
 
       {activeTab === 'projects' && (
-        <section id="projects" className="projects-vault scroll-reveal">
-          <div className="vault-header scroll-reveal">
+        <section id="projects" className="projects-vault">
+          <div className="vault-header">
             <div className="vault-line"></div>
             <h2 className="vault-title">PROJECT VAULT</h2>
             <div className="vault-line"></div>
           </div>
           <p className="vault-subtitle">An archive of my recent works</p>
 
-          <div className="vault-action-container scroll-reveal" style={{ marginBottom: '30px', marginTop: '20px' }}>
+          <div className="vault-action-container" style={{ marginBottom: '30px', marginTop: '20px' }}>
             <img src={hartIcon} alt="hart" className="vault-heart" />
             <a
               href="https://github.com/Twitzie"
@@ -494,7 +494,7 @@ function App() {
           </div>
 
           {/* Grid of Three Cards */}
-          <div className="vault-cards-grid scroll-reveal">
+          <div className="vault-cards-grid">
             {/* Card 1: Wobby */}
             <div className="vault-project-card" onClick={() => {
               setActiveShowcase(0);
@@ -685,14 +685,14 @@ function App() {
         <p className="vault-subtitle">A creative showcase of my digital designs, illustrations, and fine arts</p>
 
         <div className="artworks-grid">
-          <div className="artwork-card scroll-reveal">
+          <div className="artwork-card">
             <div className="artwork-img-wrapper">
               <div className="artwork-placeholder-bg g4">🎨</div>
             </div>
             <h3 className="artwork-title">Paintings</h3>
             <p className="artwork-category">Digital & Traditional Fine Arts</p>
           </div>
-          <div className="artwork-card scroll-reveal">
+          <div className="artwork-card">
             <div className="artwork-img-wrapper">
               <div className="artwork-placeholder-bg g1">✨</div>
             </div>
