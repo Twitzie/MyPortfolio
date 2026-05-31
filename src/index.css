@@ -27,14 +27,14 @@ body {
 
 html,
 body {
-  background-color: #16000D;
+  background-color: #20131B;
   overflow-x: hidden;
 }
 
 :root {
   --text: #6b6375;
   --text-h: #08060d;
-  --bg: #16000D;
+  --bg: #ffffff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -67,7 +67,7 @@ body {
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16000D;
+    --bg: #20131B;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
