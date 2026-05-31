@@ -55,7 +55,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('projects')
   const [showAllProjects, setShowAllProjects] = useState(false)
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('theme') || 'dark';
+    return localStorage.getItem('theme') || 'light';
   });
 
   const [isScrolled, setIsScrolled] = useState(false);
